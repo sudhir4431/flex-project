@@ -1,0 +1,390 @@
+body{
+    font-size: 18px;
+    color: #2a2929;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.btn{
+    color: white;
+    background-color: #ee706b;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.logo{
+    flex: 1;
+}
+
+.navigation{
+    flex: 1;
+}
+
+.navigation ul li{
+    list-style-type: none;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    font-weight: 700;
+}
+
+.header{
+    box-shadow: 0px 0px 5px -1px;
+}
+
+.banner{
+    background-color: #e9e7dd;
+}
+
+.banner-img{
+    max-width: 45%;
+    flex: 1;
+    padding: 15px 0px;
+}
+
+.banner-content{
+    max-width: 55%;
+    flex: 1;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.banner-content h1{
+    font-size: 63px;
+    color: #d86356;
+    padding-bottom: 20px;
+}
+
+.banner-content p{
+    color: #8e8d8a;
+    padding-bottom: 20px;
+}
+
+.btnblue{
+    background-color: #6d93e0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btnred{
+    background-color: #ee706b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.info{
+    padding: 83px 0px;
+}
+
+.wd img, .art img, .poly img{
+    width: 81px;
+    padding-right: 23px;
+    height: 58px;
+}
+
+.what{
+    flex: 1;
+}
+
+.webdesign{
+    flex: 1;
+}
+
+.what h1, .what p{
+    padding-bottom: 20px;
+}
+
+.webdesign h3{
+    padding: 20px 0px;
+    margin-left: 82px;
+}
+
+.wd p, .art p, .poly p{
+    text-align: justify;
+    color: #8e8d8a;
+}
+
+.wd, .art, .poly {
+    display: flex;
+}
+
+
+.work{
+    background-color: #e9e7dd;
+    padding-bottom: 80px;
+}
+
+.Mywork, .para{
+    display: flex;
+}
+
+.Mywork img{
+    width: 280px;
+    margin: auto;
+}
+
+.para p{
+    padding: 10px 93px;
+}
+
+.lorem h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #d86356;
+    font-size: 35px;
+}
+
+.lorem p{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #8e8d8a;
+    font-size: 22px;
+}
+
+.Mirror{
+    padding: 60px 0px;
+}
+
+.mirror_img{
+    flex: 1;
+    max-width: 45%;
+}
+
+.About{
+    flex: 1;
+    max-width: 55%;
+    padding: 31px 0px 0px 55px
+}
+
+.About h3{
+    font-size: 35px;
+    color: #d86356;
+    padding-bottom: 20px;
+}
+
+.About p{
+    color: #8e8d8a;
+}
+
+.price-tag{
+    background-color: #e9e7dd;
+    padding: 86px 0px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_card, .second_card, .third_card{
+    max-width: 31%;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    flex: 1;
+}
+
+.first_card h3, .second_card h3, .third_card h3, .first_client h3, .second_client h3, .third_client h3{
+    padding-bottom: 17px;
+    font-size: 35px;
+}
+
+.first_card h4, .second_card h4, .third_card h4{
+    font-size: 55px;
+    padding-bottom: 10px;
+    color: #6d93e0;
+}
+
+.first_card p, .second_card p, .third_card p{
+    padding-bottom: 23px;
+}
+
+.line{
+    width: 11rem;
+    margin: auto;
+    background-color: #e9e7dd;
+    margin-bottom: 13px;
+}
+
+.first_client, .second_client, .third_client{
+        max-width: 31%;
+        background-color: #e9e7dd;
+        text-align: center;
+        padding: 50px;
+        flex: 1;
+}
+
+.client{
+    padding: 86px 0px;
+}
+
+.first_client img, .second_client img, .third_client img{
+    width: 200px;
+}
+
+.first_client p, .second_client p, .third_client p{
+    padding-bottom: 20px;
+}
+
+.client_say{
+    background-color: #e9e7dd;
+    padding: 86px 0px;
+}
+
+.client_say img{
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.client_say p{
+    text-align: center;
+    padding: 20px 157px;
+}
+
+.client_say h3{
+    color: #d86356;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.client_say h4{
+    text-align: center;
+    margin-bottom: -9px;
+}
+
+.frequent{
+    padding: 86px 0px;
+}
+
+.Questions h3{
+    color: #d86356;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+.Questions p{
+    padding: 0px 70px 30px 70px;
+}
+
+.line1{
+    width: 66rem;
+    background-color: #e9e7dd;
+    margin: auto;
+}
+
+.contact{
+    background-color: #e9e7dd;
+    padding: 86px 0px;
+}
+
+.imgg{
+    max-width: 45%;
+}
+
+.form1{
+    max-width: 55%;
+    padding: 0px 66px;
+}
+
+#textname, #emailtxt, #Msg{
+    width: 100%;
+    padding: 17px;
+    margin-bottom: 30px;
+
+}
+
+.form1 h3{
+    color: #d86356;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.form1 p{
+    padding-bottom: 20px;
+}
+
+.butnstyle{
+    background-color: #ee706b;
+    color: white;
+    padding: 10px 219px;
+    border: none;
+    border-radius: 8px;
+}
+
+.Contact_sec{
+    padding: 86px 0px;
+}
+
+.phone, .email, .address, .Working{
+    width: 580px;
+    background-color: #e9e7dd;
+    padding: 50px 30px;
+    margin-bottom: 34px;
+    display: flex;
+}
+
+.phone img, .email img, .address img, .Working img{
+    width: 20px;
+    margin-right: 18px;
+}
+
+.flexbox234{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.phone2 h3, .email2 h3, .address2 h3, .working2 h3{
+    padding-bottom: 10px;
+}
+
+.Contact_sec h4{
+    font-size: 35px;
+    color: #d86356;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: -50px;
+}
